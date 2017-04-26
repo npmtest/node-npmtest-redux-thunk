@@ -1,6 +1,6 @@
 # npmtest-redux-thunk
 
-#### test coverage for  [redux-thunk (v2.2.0)](https://github.com/gaearon/redux-thunk)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-thunk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-thunk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-thunk.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-thunk)
+#### basic test coverage for  [redux-thunk (v2.2.0)](https://github.com/gaearon/redux-thunk)  [![npm package](https://img.shields.io/npm/v/npmtest-redux-thunk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-redux-thunk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-redux-thunk.svg)](https://travis-ci.org/npmtest/node-npmtest-redux-thunk)
 
 #### Thunk middleware for Redux.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-redux-thunk/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-redux-thunk/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-redux-thunk/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-redux-thunk/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-thunk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-thunk/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-redux-thunk/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-redux-thunk/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-redux-thunk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-redux-thunk/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-redux-thunk/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-redux-thunk/build/coverage.html/index.html)
 
@@ -134,7 +134,8 @@
         "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-core/register --reporter spec test/*.js"
     },
     "typings": "./index.d.ts",
-    "version": "2.2.0"
+    "version": "2.2.0",
+    "bin": {}
 }
 ```
 
